@@ -1,4 +1,41 @@
+/* COMMON */
+
 body {
-  background-color: aqua;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
   font-family: 'Nanum Gothic', sans-serif;
+}
+
+img {
+  display: block; /* img는 기본적으로 inline 요소 임 => baseline (이미지 아래 공간 없애기 위함)  */
+}
+
+/* HEADER */
+
+header {
+  background-color: aqua;
+}
+
+header .inner {
+  width: 1100px;
+  height: 120px;
+  margin: 0 auto;
+  background-color: yellow;
+  position: relative;
+}
+
+header .logo {
+  height: 75px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  /*
+    수직 배치를 하기 위해서는 부모 div에 position: relative;
+    자식 div에 position: absolute; 선언하고
+    top, bottom의 시작점을 알려주고, 대상의 height를 알려준다.
+  */
 }
