@@ -16,6 +16,13 @@ a {
   text-decoration: none;
 }
 
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
 /* HEADER */
 
 header {
@@ -23,11 +30,8 @@ header {
   border-bottom: 1px solid #c8c8c8;
 } 
 
-header .inner {
-  width: 1100px;
+header >  .inner {
   height: 120px;
-  margin: 0 auto;
-  position: relative;
 }
 
 header .logo {
@@ -149,5 +153,22 @@ header .main-menu .item:hover .item__name {
 }
 
 header .main-menu .item .item__contents {
-  
+  width: 100%;
+  position: fixed;
+  left: 0;
+  display: none;
+}
+
+header .main-menu .item:hover .item__contents {
+  display: block;
+}
+
+header .main-menu .item .item__contents .contents__menu {
+  background-color: red;
+  height: 200px;
+}
+
+header .main-menu .item .item__contents .contents__texture {
+  background-color: orange;
+  height: 100px;
 }
