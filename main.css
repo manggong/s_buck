@@ -28,7 +28,7 @@ a {
   cursor: pointer;
   box-sizing: border-box;
   display: block;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .btn:hover {
@@ -38,7 +38,7 @@ a {
 
 .btn.btn--reverse {
   background-color: #333;
-  color: #fff
+  color: #fff;
 }
 
 .btn.btn--reverse:hover {
@@ -47,13 +47,13 @@ a {
 }
 
 .btn.btn--brown {
-  color: #592B18;
-  border-color: #592B18;
+  color: #592b18;
+  border-color: #592b18;
 }
 
 .btn.btn--brown:hover {
   color: #fff;
-  background-color: #592B18;
+  background-color: #592b18;
 }
 
 .btn.btn--gold {
@@ -61,15 +61,15 @@ a {
   border-color: #d9aa8a;
 }
 
-.btn.btn--gold:hover{
+.btn.btn--gold:hover {
   color: #fff;
   background-color: #d9aa8a;
 }
 
-.btn.btn--white{
+.btn.btn--white {
   color: #fff;
   border-color: #fff;
-} 
+}
 
 .btn.btn--white:hover {
   color: #333;
@@ -80,7 +80,6 @@ a {
   width: 1100px;
   margin: 0 auto;
   position: relative;
-
 }
 
 /* HEADER */
@@ -92,9 +91,9 @@ header {
   position: fixed;
   top: 0;
   z-index: 9;
-} 
+}
 
-header >  .inner {
+header > .inner {
   height: 120px;
 }
 
@@ -170,7 +169,7 @@ header .sub-menu .search input {
   background-color: #fff;
   color: #777;
   font-size: 12px;
-  transition: width 0.4s; 
+  transition: width 0.4s;
 }
 
 header .sub-menu .search input:focus {
@@ -185,7 +184,7 @@ header .sub-menu .search .material-icons {
   bottom: 0;
   right: 5px;
   margin: auto;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 header .sub-menu .search.focused .material-icons {
@@ -201,7 +200,6 @@ header .main-menu {
 }
 
 header .main-menu .item {
-  
 }
 
 header .main-menu .item .item__name {
@@ -247,7 +245,6 @@ header .main-menu .item .item__contents .contents__menu > ul > li h4 {
 }
 
 header .main-menu .item .item__contents .contents__menu > ul > li ul {
-
 }
 
 header .main-menu .item .item__contents .contents__menu > ul > li ul li {
@@ -264,12 +261,12 @@ header .main-menu .item .item__contents .contents__menu > ul > li ul li:hover {
 header .main-menu .item .item__contents .contents__texture {
   padding: 26px 0;
   font-size: 12px;
-  background-image: url("./images/main_menu_pattern.jpg");
+  background-image: url('./images/main_menu_pattern.jpg');
 }
 
 header .main-menu .item .item__contents .contents__texture h4 {
   color: #999;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
 header .main-menu .item .item__contents .contents__texture p {
@@ -287,7 +284,7 @@ header .badges .badge {
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 12px;
-  box-shadow: 4px 4px 10px rgba(0,0,0,.15);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 
@@ -295,7 +292,7 @@ header .badges .badge {
 
 .visual {
   margin-top: 120px;
-  background-image: url("./images/visual_bg.jpg ");
+  background-image: url('./images/visual_bg.jpg ');
   background-position: center;
 }
 
@@ -350,7 +347,6 @@ header .badges .badge {
 }
 
 .notice {
-
 }
 
 .notice .notice-line {
@@ -386,7 +382,7 @@ header .badges .badge {
   background-color: #333;
   display: flex;
   align-items: center;
-} 
+}
 
 .notice .notice-line .inner__left h2 {
   color: #fff;
@@ -395,7 +391,7 @@ header .badges .badge {
   margin-right: 20px;
 }
 
-.notice .notice-line .inner__left .swiper-container { 
+.notice .notice-line .inner__left .swiper-container {
   height: 62px;
   flex-grow: 1;
 }
@@ -404,7 +400,7 @@ header .badges .badge {
   height: 62px;
   display: flex;
   align-items: center;
-} 
+}
 
 .notice .notice-line .inner__left .swiper-slide a {
   color: #fff;
@@ -453,7 +449,7 @@ header .badges .badge {
   height: 693px;
   background-color: #f6f5ef;
   position: relative;
-  transition: height .4s;
+  transition: height 0.4s;
   overflow: hidden;
 }
 
@@ -461,7 +457,7 @@ header .badges .badge {
   height: 0;
 }
 
-.notice .promotion .swiper-container  {
+.notice .promotion .swiper-container {
   width: calc(819px * 3 + 20px);
   height: 553px;
   position: absolute;
@@ -471,7 +467,7 @@ header .badges .badge {
 }
 
 .notice .promotion .swiper-slide {
-  opacity: .5;
+  opacity: 0.5;
   transition: opacity 1s;
   position: relative;
 }
@@ -524,8 +520,8 @@ header .badges .badge {
   outline: none;
   display: flex;
   justify-content: center;
-  align-items: center ;
-  transition: .4s;
+  align-items: center;
+  transition: 0.4s;
 }
 
 .notice .promotion .swiper-prev {
@@ -540,7 +536,7 @@ header .badges .badge {
 .notice .promotion .swiper-prev:hover,
 .notice .promotion .swiper-next:hover {
   background-color: #333;
-  color: #fff; 
+  color: #fff;
 }
 
 /* REWARDS */
@@ -568,7 +564,7 @@ header .badges .badge {
 }
 
 .rewards .inner {
-  background-image: url("./images/rewards.jpg");
+  background-image: url('./images/rewards.jpg');
   height: 241px;
 }
 
@@ -611,17 +607,16 @@ header .badges .badge {
   margin-top: calc(1920px * 9 / 16 / -2);
 }
 .youtube .youtube__area::before {
-  content: "";
+  content: '';
   display: block;
   width: 100%;
   height: 0;
-  padding-top: 56.25%
-
+  padding-top: 56.25%;
 }
 
 .youtube .youtube__cover {
   background-image: url('./images/video_cover_pattern.png');
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
   left: 0;
@@ -673,7 +668,6 @@ header .badges .badge {
   position: absolute;
   top: 110px;
   right: 100px;
-
 }
 
 .season-product .text-group .title {
@@ -685,7 +679,6 @@ header .badges .badge {
 }
 
 .season-product .text-group .more {
-
 }
 
 /* RESERVE COFFEE */
@@ -744,4 +737,60 @@ header .badges .badge {
 
 .pick-your-favorite .text-group .description {
   margin-bottom: 40px;
+}
+
+/*reserve store*/
+
+.reserve-store {
+  background-image: url('./images/reserve_store_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.reserve-store .inner {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reserve-store .medal {
+  width: 334px;
+  height: 334px;
+  perspective: 600px;
+}
+
+.reserve-store .medal .front,
+.reserve-store .medal .back {
+  width: 334px;
+  height: 334px;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: 1s;
+}
+
+.reserve-store .medal .front {
+  transform: rotateY(0deg);
+}
+
+.reserve-store .medal:hover .front {
+  transform: rotateY(-180deg);
+}
+
+.reserve-store .medal .back {
+  transform: rotateY(-180deg);
+}
+
+.reserve-store .medal:hover .back {
+  transform: rotateY(0deg);
+}
+
+.reserve-store .medal .back .btn {
+  position: absolute;
+  top: 240px;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
