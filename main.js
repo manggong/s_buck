@@ -110,6 +110,6 @@ spyEls.forEach((spyEl)=>{
       triggerElement: spyEl,
       triggerHook: .8
     })
-    .setClassToggle()
-    .addTo()
+    .setClassToggle(spyEl, 'show')
+    .addTo(new ScrollMagic.Controller())
 })
